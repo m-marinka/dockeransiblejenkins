@@ -1,2 +1,2 @@
 [dev]
-172.31.47.8 ansible_user=dev-user
+172.31.5.92 ansible_user=devuser
