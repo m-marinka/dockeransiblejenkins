@@ -21,8 +21,8 @@
         state: present
     - name: Start the container
       docker_container:
-        name: makarapp
-        image: "mmarinka/makarapp:{{DOCKER_TAG}}"
+        name: spring_boot_app
+        image: "mmarinka/sping_boot_app:{{DOCKER_TAG}}"
         state: started
         published_ports:
           - 0.0.0.0:8080:8080
